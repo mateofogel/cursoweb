@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header>
+        <header class="cabeza">
+            <h1> <img src="../pages/logo.png" alt=""> <a href="../index.html">Cors-Falcon</a></h1>
+           <div>
+            <ul>
+                <li> <a href="../index.html">Inicio</a></li>
+                <li> <a href="../pages/quienes.html"> ¿Quienes somos?</a></li>
+                <li> <a href="../pages/contacto.html">Contacto</a> </li>
+                <li> <a href="../pages/eventos.html">Eventos</a></li>
+                <li> <a href="../pages/testimonios.html">Testimonios</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <article id="contacto"></article>
+    <form action="" id="contacto">
+        <div>
+            <label for="nombre-usuario">Nombre y apellido:</label>
+            <input type="text" id="nombre-usuario" name="nombre-usuario">
+        </div>
+        <div>
+            <label for="email-usuario">Ingrese su mail:</label>
+            <input type="mail" id="email-usuario" name="email-usuario">
+        </div>
+        <div>
+            <label for="asuntos-mail">Asunto:</label>
+            <select id="asuntos-mail">
+                <option value=" ">-</option>
+                <option value="consulta">Consulta</option>
+                <option value="inscripcion">Inscripcion</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+        <div>
+
+            <label for="mensaje">Ingrese su mensaje</label>
+            <textarea cols="30" rows="10" id="mensaje"></textarea>
+        </div>
+        <div>
+            <label for="recibir-noticias">¿Desea recibir noticias?</label>
+            <input type="checkbox" value="si-noticias" id="recibir-noticias">
+        </div>
+        <div>
+            <label for="">Hombre</label>
+            <input type="radio" name="seleccion-genero" value="masculino">
+            <label for="">Mujer</label>
+            <input type="radio" name="seleccion-genero" value="femenino">
+            <label for="">Prefiero no responder</label>
+            <input type="radio" name="seleccion-genero" value="no-responde">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+    
+    <section class="foot">
+        <footer>
+            <div>
+                <h4>Campus Cors-Falcon</h4>
+                <ul>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                </ul>
+    
+            </div>
+            <div>
+                <h4>Siguenos en</h4>
+                <ul>
+                    <li> <a href="https://www.instagram.com/campuscorsfalcon/" target="_blank">Instagram</a> </li>
+                    <li> <a href="https://www.facebook.com/nestoradrianfogel" target="_blank">Facebook</a></li>
+    
+                </ul>
+    
+            </div>
+        </footer>
+
+</body>
+
+</html>

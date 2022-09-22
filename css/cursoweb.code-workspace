@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "cursoweb",
+			"path": ".."
+		},
+		{
+			"name": "fotos campus",
+			"path": "../../../Pictures/fotos campus"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cursoweb"
+	}
+}
